@@ -6,7 +6,7 @@ import Register from "../components/Register.jsx";
 import CartPage from "../pages/books/CartPage.jsx";
 import CheckoutPage from "../pages/books/CheckoutPage.jsx";
 import SingleBook from "../pages/books/SingleBook.jsx";
-import PrivateRoute from "./privateRoute.jsx";
+
 import OrderPage from "../pages/books/OrderPage.jsx";
 import AdminRoute from "./AdminRoute.jsx";
 import AdminLogin from "../components/AdminLogin.jsx";
@@ -15,6 +15,7 @@ import Dashboard from "../pages/dashboard/Dashboard.jsx";
 import ManageBooks from "../pages/dashboard/manageBooks/ManageBooks.jsx";
 import AddBook from "../pages/dashboard/addBook/AddBook.jsx";
 import EditBook from "../pages/dashboard/editBook/EditBook.jsx";
+import PrivateRoute from "./PrivateRoute.jsx";
 
 const router = createBrowserRouter([
   {
